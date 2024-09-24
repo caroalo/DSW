@@ -1,0 +1,93 @@
+/* AppRopa.css */
+
+
+
+.container {
+   background-image: url('/src/img/fondo.jpg'); 
+    background-size: cover; 
+    background-position: center;
+   background-repeat: no-repeat; 
+   height: 500px; 
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .container_flex{
+    display: flex;
+  }
+  
+  h1 {
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  h2{
+    font-family: "Cambria", serif;
+    font-size: medium;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .button_finalizar {
+    background-color: #d687ea;
+    color: black;
+    border: solid;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #ec99c4;
+  }
+  
+  .button_cant {
+    background-color: rgb(248, 236, 238);
+    color: black;
+    padding: 2px 2px;
+    border: none;
+    cursor: pointer;
+    size: 2px 2px;
+  }
+
+  .button_elim {
+    background-color: rgb(248, 236, 238);
+    color: black;
+    padding: 2px 2px;
+    border: none;
+    cursor: pointer;
+    size: 2px 2px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-image: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-family: "roboto", serif;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+  
+
+   
+  
